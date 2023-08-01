@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Rampart+One&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+html, body {margin: 0; height: 100%; overflow: hidden}
+body {
+  background-color: black;
+}
+
+.nocopy {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.stream {
+  top: 30%;
+  position: relative;
+}
+#title {
+    position: relative;
+    top: 20%;
+    color:white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 48px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#phrase {
+  position: relative;
+  /**top: 41%;**/
+  color: white;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-shadow: 2px 2px 5px aquamarine;
+}
+#footer {
+  position: relative;
+  top: 73%;    
+  color: white;  
+  text-align: center;
+  justify-content: center;
+  font-family: 'Rampart One', cursive;  
+}
+#logo-holder {
+  justify-content: center;
+  position: relative;
+  top: 20%;
+  display: flex;
+  flex-direction: row;
+}
+.marginright {
+  margin-right: 1em;
+}
+.social {
+  width: 110%;
+}
+.social:hover {
+    cursor: pointer;
+    transform: scale(1.07);
+}
+#kick {
+  font-family: 'Righteous', cursive;
+  color: greenyellow;
+  text-decoration: none;
+  margin-top: 1em;
+}
+a:visited { 
+  color: greenyellow;
+  text-decoration: none; 
+}
+a:link {
+  color: greenyellow;
+  text-decoration: none;
+}
+a:visited {
+  color: greenyellow;
+  text-decoration: none;
+}
+a:hover {
+  color: greenyellow;
+  text-decoration: none;
+  transform: scale(1.05);
+}
+a:active {
+  color: greenyellow;
+  text-decoration: none;
+}
+#image:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+}
